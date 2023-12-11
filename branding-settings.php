@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Branding Settings
  * Description: A plugin to manage branding settings.
- * Version: 1.1
+ * Version: 1.2
  * Author: Angelo Marasa
  */
 
