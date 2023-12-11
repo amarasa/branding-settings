@@ -21,6 +21,9 @@ Yes, you will need to have Advanced Custom Fields installed in order for this pl
 
 == Changelog ==
 
+= 1.2 = 
+* Fixed a bug where it wouldn't allow 2 shortcodes in the same html element (due to a row reset issue in ACF)
+
 = 1.1 = 
 * Added ability to update through GitHub
 
