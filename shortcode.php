@@ -12,6 +12,9 @@ function branding_shortcode($atts)
         'branding'
     );
 
+    // Reset ACF loop
+    reset_rows();
+
     if (have_rows('field_value_pairs', 'option')) :
         while (have_rows('field_value_pairs', 'option')) : the_row();
             $field = get_sub_field('field');
